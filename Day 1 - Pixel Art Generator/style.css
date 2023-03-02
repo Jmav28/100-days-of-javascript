@@ -59,12 +59,12 @@ input[type="color"] {
 
 input[type="color"]::-webkit-color-swatch {
     border-radius: 8px;
-    border: 4px solid #000;
+    border: 4px solid #000000;
 }
 
 input[type="color"]::-moz-color-swatch {
     border-radius: 8px;
-    border: 4px solid #000;
+    border: 4px solid #000000;
 }
 
 .gridCol {
