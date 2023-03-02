@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 90vmin;
     padding: 50px 30px;
     position: absolute;
@@ -36,7 +36,7 @@ button {
     place-items: center;
     border-radius: 3px;
     border: none;
-    background-color: #fff;
+    background-color: #ffffff;
     outline: none;
     color: #020929;
     cursor: pointer;

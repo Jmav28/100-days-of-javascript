@@ -69,10 +69,10 @@ linkBtn.addEventListener("click", () => {
     }
 });
 
-const highlighter = (className, needsRemoval) => {
+const highlighter = (className, needsRemov) => {
     className.forEach((btn) => {
         btn.addEventListener("click", () => {
-            if(needsRemoval) {
+            if(needsRemov) {
                 let alreadyActive = false;
                 if(btn.classList.contains("active")) {
                     alreadyActive = true;
@@ -88,8 +88,8 @@ const highlighter = (className, needsRemoval) => {
     });
 }
 
-const highlighterRemover = (clasName) => {
-    clasName.forEach((btn) => {
+const highlighterRemover = (className) => {
+    className.forEach((btn) => {
         btn.classList.remove("active");
     });
 }
