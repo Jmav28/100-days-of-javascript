@@ -59,13 +59,15 @@ let getMovie = () => {
     }
 }
 
-searchBtn.addEventListener("click", getMovie);
-window.addEventListener("load", getMovie);
-movieNameRef.addEventListener("keyup", (a) => {
+const search = (a) => {
     if(a.key === "Enter") {
         setTimeout(getMovie, 150);
     }
     else {
         return;
     }
-})
+}
+
+searchBtn.addEventListener("click", getMovie);
+window.addEventListener("load", getMovie);
+movieNameRef.addEventListener("keyup", search);
