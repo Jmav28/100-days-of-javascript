@@ -49,7 +49,7 @@ textarea {
 button {
     float: right;
     margin-top: 20px;
-    border-color: #1565c0;
+    background-color: #1565c0;
     color: #fff;
     border: none;
     padding: 10px 30px;
@@ -59,7 +59,7 @@ button {
 
 .result {
     margin-top: 40px;
-    /* display: none; */
+    display: none;
 }
 
 .result h3 {
